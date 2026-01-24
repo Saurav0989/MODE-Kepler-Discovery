@@ -4,7 +4,7 @@ IMPORTANT- yes im attaching any file of codes but anyone who wana review it can 
 
 # MODE: A Mathematical Observatory for Discovery Engine
 
-## From Hallucination to High-Precision Scientific Computation
+
 
 ---
 
