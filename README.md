@@ -2,6 +2,9 @@
 
 IMPORTANT- yes im attaching any file of codes but anyone who wana review it can contact me - sauravsejal40@gmail.com
 
+
+ AND MUST READ THE PDF I HAVE ATTACHED IN REPO, IT HAS THE WHOLE DETAIL OF MY PROJECT IN MY DEVICE 
+ 
 # MODE: A Mathematical Observatory for Discovery Engine
 
 
