@@ -42,13 +42,13 @@ The transformation demonstrates that AI systems can move beyond "dreaming about 
 
 The original MODE codebase suffered from what we term "computational hallucination"—modules that *described* scientific phenomena without *computing* them:
 
-| Module | Before (Hallucination) | After (Reality) |
+| Modules
 |--------|----------------------|-----------------|
-| `omega_soliton.py` | "Soliton is a loop in a graph" | KdV PDE spectral solver |
-| `omega_quantum.py` | "List of quantum structures" | TDSE split-operator method |
-| `omega_unsolved.py` | Divergent series summation | `mpmath.siegelz()` with analytic continuation |
-| `omega_verification.py` | `if/else` statements | Z3 SMT solver |
-| `omega_consciousness.py` | Claims of consciousness | Honest BDI agent architecture |
+| `omega_soliton.py` | |
+| `omega_quantum.py` | | 
+| `omega_unsolved.py` | |
+| `omega_verification.py` | `
+| |  |
 
 ### 1.2 The Solution: Reality Specification
 
