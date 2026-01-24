@@ -1,6 +1,6 @@
 # MODE-Kepler-Discovery
 
-IMPORTANT- yes im  not attaching any file of codes but anyone who wana review it can contact me - sauravsejal40@gmail.com
+IMPORTANT- yes have  not attached any file of codes, but anyone who wana review it can contact me - sauravsejal40@gmail.com
 feel free to mail me anytime.
 
  AND Please  READ THE PDF I HAVE ATTACHED IN REPO, IT HAS ALL THE details and data  OF MY PROJECT IN MY DEVICE 
