@@ -229,6 +229,8 @@ N(T) = (1/2π)·T·log(T) − (1 + log(2π))/(2π)·T + O(log(T))
 We overlaid gravitational wave frequency evolution with entropy production:
 
 ![Geometry of the Crash](synthesis/mission2_geometry_of_crash.png)
+whihc is attached in pdf u can read in repo 
+
 
 **Key Observations:**
 - GW150914 frequency chirp: 30 Hz → 200 Hz (inspiral to merger)
@@ -456,22 +458,22 @@ The first 100 zeros computed by our engine, verified against published tables:
 
 ## Appendix B: Reality Specification Table
 
-| Module | Hallucination | Reality | Must Solve |
+| Module |  | Reality | Must Solve |
 |--------|--------------|---------|------------|
-| omega_unsolved | Divergent sum | siegelz() | Analytic continuation |
-| omega_soliton | Graph loops | KdV spectral | Energy conservation |
-| omega_quantum | List of values | TDSE solver | Tunneling probability |
-| omega_physics | Random noise | Lagrangian ODEs | Lyapunov exponent |
-| omega_time | Print "found" | Particle simulation | dS/dt > 0 |
-| omega_reality | Declare stable | N-body with G | Orbit survival |
-| omega_verification | if/else | Z3 SMT | UNSAT proof |
-| omega_visualizer | Random points | t-SNE/PCA | Manifold structure |
-| omega_consciousness | Claims awareness | BDI architecture | is_conscious=False |
+| omega_unsolved |  | siegelz() | Analytic continuation |
+| omega_soliton |  | KdV spectral | Energy conservation |
+| omega_quantum | | TDSE solver | Tunneling probability |
+| omega_physics |  | Lagrangian ODEs | Lyapunov exponent |
+| omega_time |  | Particle simulation | dS/dt > 0 |
+| omega_reality |  | N-body with G | Orbit survival |
+| omega_verification |  Z3 SMT | UNSAT proof |
+| omega_visualizer |  | t-SNE/PCA | Manifold structure |
+| omega_consciousness | | BDI architecture | is_conscious=False |
 
 ---
 
 **End of Document**
 
-*"If the entropy graph goes up, you have discovered Time."*
 
-*The entropy graph goes up.*
+
+
